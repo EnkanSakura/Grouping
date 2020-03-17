@@ -57,7 +57,7 @@ int main()
             player.push_back(temp);
             cout << "\t\"" << name << "\" has been added successfully" << endl;
         }
-        else if (command == "roll")//.........................................................................roll
+        else if (command == "roll")//........................................................................roll
         {
             if (player.empty())
             {
@@ -100,14 +100,14 @@ int main()
             }
             putchar('\n');
         }
-        else if (command == "help" || command == "?")//...........................................................help
+        else if (command == "help" || command == "?")//......................................................help
         {
             cout<< "\t" << setw(12) << left << setfill(' ') << "ADD" << "add a member\n"
                 << "\t" << setw(12) << left << setfill(' ') << "ROLL" << "roll two groups\n"
                 << "\t" << setw(12) << left << setfill(' ') << "HELP or ?" << "show help\n"
                 << "\t" << setw(12) << left << setfill(' ') << "EXIT" << "exit program" << endl;
         }
-        else//............................................................................................other
+        else//..............................................................................................other
         {
             cout << "\"" << command << "\" is undefind command" << endl;
         }
