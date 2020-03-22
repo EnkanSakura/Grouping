@@ -1,6 +1,11 @@
 .vscode/
+.vs/
+Release/
 *.exe
 *.txt
 *.ini
 *.dat
-
+*.sln
+*.vcxproj
+*.filters
+*.user
